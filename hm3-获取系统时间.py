@@ -1,4 +1,3 @@
-#使用python代码获取当前系统时间
 # -*- coding: utf-8 -*-
 import time
 
