@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 def insertion_sort(arr):
-    # 遍历整个数组
     for i in range(1, len(arr)):
         key = arr[i]
         j = i - 1
-        # 将当前元素插入到已排序的部分
         while j >= 0 and key < arr[j]:
             arr[j + 1] = arr[j]
             j -= 1
